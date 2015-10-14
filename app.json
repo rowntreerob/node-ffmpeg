@@ -14,10 +14,7 @@
     "postdeploy": "echo 'restarting'"
   },
   "addons": [
-    "mongolab",
-    "rediscloud",
-    "cloudamqp",
-    "blitz"
+    "cloudamqp"
   ],
   "env": {
     "THRIFTY": {
@@ -31,10 +28,6 @@
     "WORKER_CONCURRENCY": {
       "description": "level of concurrency for worker processes",
       "value": "1"
-    },
-    "COOKIE_SECRET": {
-      "description": "a secret key for signed cookies",
-      "generator": "secret"
     }
   }
 }

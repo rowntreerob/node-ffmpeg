@@ -1,14 +1,13 @@
 {
-  "name": "node-production",
-  "version": "0.0.0",
+  "name": "node-ffmpeg-heroku",
+  "version": "0.0.1",
   "description": "A minimum viable node app for production deployment",
   "main": "index.js",
   "scripts": {
     "start": "nf start",
-    "reset": "script/reset",
     "benchmark": "script/benchmark"
   },
-  "author": "Hunter Loftis <hunter@heroku.com>",
+  "author": "rob rowntree <rowntreerob@gmail.com>",
   "repository": "hunterloftis/node-production",
   "license": "ISC",
   "dependencies": {
@@ -28,9 +27,6 @@
     "jade": "^1.5.0",
     "lodash": "^2.4.1",
     "logfmt": "^1.1.2",
-    "mongoose": "^3.8.13",
-    "mongoose-cache": "git://github.com/hunterloftis/mongoose-cache",
-    "mongoose-timestamp": "^0.3.0",
     "morgan": "^1.2.0",
     "node-parse-api": "^0.3.8",
     "node-uuid": "^1.4.1",
